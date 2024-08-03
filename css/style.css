@@ -108,7 +108,7 @@ button {
   font-size: 18px;
   margin-bottom: 14px;
   background-color: #f2f5fc;
-  background: url(images/muñeco.png);
+  background: url(/images/muñeco.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
