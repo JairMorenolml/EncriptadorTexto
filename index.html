@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="input">
+        <textarea
+          class="text-area"
+          cols="30"
+          rows="10"
+          placeholder="Ingrese el texto aqui"
+        ></textarea>
+        <div class="info">
+          <img src="/images/info.png" />
+          <h6>Letras minusculas y sin acento</h6>
+        </div>
+        <div class="botones">
+          <button class="btn-encriptar" onclick="btnEncriptar()">
+            Encriptar
+          </button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">
+            Desencriptar
+          </button>
+        </div>
+      </section>
+      <section class="output">
+        <div class="outbox">
+          <textarea class="mensaje" cols="20" rows="10" disabled>:)</textarea>
+          <div>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h1>Jair Moreno</h1>
+      <p>Desarrollador Web</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
